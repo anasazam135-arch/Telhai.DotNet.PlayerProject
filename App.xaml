@@ -1,0 +1,17 @@
+﻿<Application x:Class="Telhai.DotNet.PlayerProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Telhai.DotNet.PlayerProject"
+             StartupUri="MusicPlayer.xaml">
+    <Application.Resources>
+        <DrawingImage x:Key="DefaultCover">
+            <DrawingImage.Drawing>
+                <GeometryDrawing Brush="#444444">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,200,200" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingImage.Drawing>
+        </DrawingImage>
+    </Application.Resources>
+</Application>
